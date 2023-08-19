@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrationform.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="regform">
+            <form class="regform1" name="myform" onsubmit="validation()">
+                <h1 class="heading">Registration form</h1>
+                <div class="box">
+                    First Name : <input type="text" class="int1" id="fname" name="username" placeholder="Enter First Name">
+                </div>
+                <div class="box">
+                    Middle Name : <input type="text" class="int1" name="username1" placeholder="Enter Middle Name">
+                </div>
+                <div class="box">
+                    Last Name : <input type="text" class="int1" name="username2" placeholder="Enter Last Name">
+                </div>
+                <div class="box">
+                    Contact No. : <input type="number" class="int1" placeholder="Enter Contact no.">
+                </div>
+                <div class="box">
+                    Age : <input type="number" class="int1" placeholder="Enter your age" required>
+                </div>
+                <div class="box">
+                    Gender : Male<input type="radio" name="mygender"> Female<input type="radio" name="mygender">
+                    Other<input type="radio" name="mygender">
+                </div>
+                <div class="button">
+                    <div>
+                        <button class="btn" type="reset">Reset</button>
+                    </div>
+                    <div>
+                        <button class="btn" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
